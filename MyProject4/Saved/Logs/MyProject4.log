@@ -1,4 +1,4 @@
-﻿Log file open, 01/26/19 08:48:01
+﻿Log file open, 01/26/19 09:33:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject4
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.296112
+LogStats: Stats thread started at 1.087397
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.268s to configure plugins.
+LogStreaming: Display: Took  0.127s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,12 +118,12 @@ LogInit: Build: ++UE4+Release-4.20-CL-4302132
 LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6820HK CPU @ 2.70GHz, GPU: NVIDIA GeForce GTX 980M
 LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -150,726 +150,637 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.26-13.48.01:831][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.26-13.48.01:831][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.26-13.48.01:873][  0]LogHAL: Display: Platform has ~ 32 GB [34065870848 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.26-13.48.01:874][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.26-13.48.01:874][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.26-13.48.01:876][  0]LogInit: Computer: CNIC331-08
-[2019.01.26-13.48.01:876][  0]LogInit: User: Kingerso
-[2019.01.26-13.48.01:876][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.26-13.48.01:876][  0]LogInit: High frequency timer resolution =3.515628 MHz
-[2019.01.26-13.48.01:876][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
-[2019.01.26-13.48.01:876][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.26-13.48.01:876][  0]LogMemory: Process Physical Memory: 99.54 MB used, 99.54 MB peak
-[2019.01.26-13.48.01:877][  0]LogMemory: Process Virtual Memory: 91.13 MB used, 91.13 MB peak
-[2019.01.26-13.48.01:877][  0]LogMemory: Physical Memory: 6561.08 MB used,  25926.67 MB free, 32487.75 MB total
-[2019.01.26-13.48.01:877][  0]LogMemory: Virtual Memory: 509.98 MB used,  25926.67 MB free, 134217728.00 MB total
-[2019.01.26-13.48.01:928][  0]LogInit: Using OS detected language (en-US).
-[2019.01.26-13.48.01:928][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.26-13.48.01:930][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.26-13.48.02:315][  0]LogStreaming: Display: Took  0.387s to InitEngineTextLocalization.
-[2019.01.26-13.48.02:316][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.26-13.48.02:362][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.26-13.48.02:362][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.26-13.48.03:016][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.26-13.48.03:016][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.26-13.48.03:113][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2019.01.26-13.48.03:113][  0]LogD3D11RHI:       11134/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.01.26-13.48.03:116][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.26-13.48.03:116][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.26-13.48.03:116][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.26-13.48.03:121][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.26-13.48.03:121][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.26-13.48.03:121][  0]LogWindows: EnumDisplayDevices:
-[2019.01.26-13.48.03:122][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2019.01.26-13.48.03:122][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2019.01.26-13.48.03:122][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.01.26-13.48.03:122][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.01.26-13.48.03:122][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.01.26-13.48.03:122][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2019.01.26-13.48.03:122][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
-[2019.01.26-13.48.03:122][  0]LogD3D11RHI:      Driver Date: 6-24-2018
-[2019.01.26-13.48.03:122][  0]LogRHI: Texture pool is 7793 MB (70% of 11134 MB)
-[2019.01.26-13.48.03:170][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.26-13.48.03:188][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.26-13.48.03:283][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Intermediate/Shaders/WorkingDirectory/8872/).
-[2019.01.26-13.48.03:284][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kingerso/AppData/Local/Temp/UnrealShaderWorkingDir/3DDE933E499DFB282E6970BA0F752FC5/'.
-[2019.01.26-13.48.03:729][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.26-13.48.03:745][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.26-13.48.03:779][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.26-13.48.03:798][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.26-13.48.03:813][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.26-13.48.03:828][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.26-13.48.03:843][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.26-13.48.03:858][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.26-13.48.03:865][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.26-13.48.03:948][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.26-13.48.03:952][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.26-13.48.04:028][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.26-13.48.04:028][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.26-13.48.04:079][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.26-13.48.04:079][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.26-13.48.04:109][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.26-13.48.04:124][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.26-13.48.04:138][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.26-13.48.04:182][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.26-13.48.04:197][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.26-13.48.04:197][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.26-13.48.04:289][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.26-13.48.04:289][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.26-13.48.04:289][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.26-13.48.05:347][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.26-13.48.05:407][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/kingerso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.26-13.48.05:408][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kingerso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.26-13.48.05:408][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.26-13.48.05:408][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.26-13.48.05:408][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.26-13.48.05:408][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.26-13.48.05:425][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.26-13.48.05:438][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kingerso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.26-13.48.05:438][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.26-13.48.05:438][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.26-13.48.05:459][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.26-13.48.05:460][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.26-13.48.05:462][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.26-13.48.05:622][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
-[2019.01.26-13.48.06:011][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.26-13.48.06:219][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.26-13.48.06:225][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.26-13.48.06:225][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.26-13.48.06:225][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.26-13.48.06:225][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.26-13.48.06:258][  0]LogNetVersion: MyProject4 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3245095822)
-[2019.01.26-13.48.07:023][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.228540 seconds
-[2019.01.26-13.48.07:029][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.26-13.48.07:029][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.01.26-13.48.07:029][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.26-13.48.08:928][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.26-13.48.08:942][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.26-13.48.09:161][  0]SourceControl: Source control is disabled
-[2019.01.26-13.48.09:161][  0]SourceControl: Source control is disabled
-[2019.01.26-13.48.09:164][  0]SourceControl: Source control is disabled
-[2019.01.26-13.48.09:167][  0]SourceControl: Source control is disabled
-[2019.01.26-13.48.09:423][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.26-13.48.09:490][  0]LogOcInput: OculusInput pre-init called
-[2019.01.26-13.48.09:606][  0]LogEngine: Initializing Engine...
-[2019.01.26-13.48.09:607][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.26-13.48.09:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.26-13.48.09:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.26-13.48.09:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.26-13.48.09:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.26-13.48.09:906][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.26-13.48.09:924][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.26-13.48.09:952][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.48.09:992][  0]LogInit: FAudioDevice initialized.
-[2019.01.26-13.48.09:992][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.26-13.48.10:090][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/kingerso/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.26-13.48.10:100][  0]LogInit: Texture streaming: Enabled
-[2019.01.26-13.48.10:124][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.26-13.48.10:142][  0]LogInit: Transaction tracking system initialized
-[2019.01.26-13.48.10:183][  0]BlueprintLog: New page: Editor Load
-[2019.01.26-13.48.10:319][  0]LocalizationService: Localization service is disabled
-[2019.01.26-13.48.10:660][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.26-13.48.10:660][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.26-13.48.10:660][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.26-13.48.10:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.26-13.48.10:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.26-13.48.10:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.26-13.48.10:660][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.26-13.48.10:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kingerso/Desktop/GGJ2019/MyProject4/Content/' took 0.02s
-[2019.01.26-13.48.10:893][  0]SourceControl: Source control is disabled
-[2019.01.26-13.48.10:893][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.26-13.48.10:894][  0]LightingResults: New page: Lighting Build
-[2019.01.26-13.48.10:898][  0]MapCheck: New page: Map Check
-[2019.01.26-13.48.10:898][  0]LightingResults: New page: Lighting Build
-[2019.01.26-13.48.11:050][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
-[2019.01.26-13.48.11:050][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
-[2019.01.26-13.48.11:050][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData
-[2019.01.26-13.48.11:068][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
-[2019.01.26-13.48.11:068][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
-[2019.01.26-13.48.11:068][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData
-[2019.01.26-13.48.11:070][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
-[2019.01.26-13.48.11:070][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
-[2019.01.26-13.48.11:070][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
-[2019.01.26-13.48.11:071][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
-[2019.01.26-13.48.11:083][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
-[2019.01.26-13.48.11:083][  0]LoadErrors: Failed to load /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData Referenced by PersistentLevel
-[2019.01.26-13.48.11:083][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
-[2019.01.26-13.48.11:083][  0]LoadErrors: Failed to load /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData Referenced by PersistentLevel
-[2019.01.26-13.48.11:138][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.01.26-13.48.11:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.26-13.48.11:173][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.26-13.48.11:457][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 283.347ms to complete.
-[2019.01.26-13.48.11:457][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.564
-[2019.01.26-13.48.11:559][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.26-13.48.11:559][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.26-13.48.11:590][  0]LogCollectionManager: Loaded 0 collections in 0.001940 seconds
-[2019.01.26-13.48.11:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kingerso/Desktop/GGJ2019/MyProject4/Saved/Collections/' took 0.01s
-[2019.01.26-13.48.11:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kingerso/Desktop/GGJ2019/MyProject4/Content/Developers/Kingerso/Collections/' took 0.01s
-[2019.01.26-13.48.11:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kingerso/Desktop/GGJ2019/MyProject4/Content/Collections/' took 0.01s
-[2019.01.26-13.48.11:657][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.26-13.48.11:671][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2572 classes and 603 folders.
-[2019.01.26-13.48.11:679][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.26-13.48.11:809][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.26-13.48.11:844][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.48.11:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.48.11:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.48.11:875][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.48.11:882][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.01.26-13.48.11:898][  0]LogSlate: Took 0.001971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.26-13.48.11:905][  0]LogSlate: Took 0.001717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.26-13.48.11:907][  0]LogSlate: Took 0.001542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.26-13.48.12:008][  0]LogRenderer: Reallocating scene render targets to support 924x924 Format 10 NumSamples 1 (Frame:1).
-[2019.01.26-13.48.12:114][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.26-13.48.12:114][  0]LogLoad: (Engine Initialization) Total time: 13.09 seconds
-[2019.01.26-13.48.12:114][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.26-13.48.12:146][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.26-13.48.12:152][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-13.48.12:188][  0]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.26-13.48.12:209][  1]LogAssetRegistry: Asset discovery search completed in 6.6090 seconds
-[2019.01.26-13.48.12:210][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.26-13.48.12:210][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2019.01.26-13.48.23:311][317]LogSlate: Window 'Message Log' being destroyed
-[2019.01.26-13.48.23:314][317]LogSlate: Window 'Message Log' being destroyed
-[2019.01.26-13.48.32:658][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.48.43:316][695]LogSlate: Took 0.000781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.01.26-13.49.00:703][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.49.20:929][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.49.21:022][ 32]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.49.21:037][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2019.01.26-13.49.21:037][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.49.21:050][ 32]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jan 26, 2019, 3:49:21 AM)
-[2019.01.26-13.49.21:050][ 32]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
-[2019.01.26-13.49.21:052][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002442s)
-[2019.01.26-13.49.21:053][ 32]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.01.26-13.49.21:053][ 32]LogPlayLevel: PIE: World Init took: (0.000608s)
-[2019.01.26-13.49.21:053][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003189s)
-[2019.01.26-13.49.21:108][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.49.21:122][ 32]LogInit: FAudioDevice initialized.
-[2019.01.26-13.49.21:170][ 32]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.49.21:175][ 32]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2019.01.26-08.49.21
-[2019.01.26-13.49.21:176][ 32]LogWorld: Bringing up level for play took: 0.002266
-[2019.01.26-13.49.21:206][ 32]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
-[2019.01.26-13.49.21:208][ 32]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.405
-[2019.01.26-13.49.21:208][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2019.01.26-13.49.37:712][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2019.01.26-13.49.37:712][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.49.37:752][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.49.37:752][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2019.01.26-13.49.37:797][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.49.37:811][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.01.26-13.49.41:542][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.49.44:130][764]LogSlate: Took 0.001640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.26-13.49.44:244][764]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
-[2019.01.26-13.49.44:244][764]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/GGJ2019.umap.
-[2019.01.26-13.49.44:244][764]LoadErrors: Error: /Game/GGJ2019 : Can't find file for asset. /Game/GGJ2019_BuiltData
-[2019.01.26-13.49.44:248][764]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
-[2019.01.26-13.49.44:248][764]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading ../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/GGJ2019.umap.
-[2019.01.26-13.49.44:259][764]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
-[2019.01.26-13.49.44:259][764]LoadErrors: Failed to load /Game/GGJ2019_BuiltData.GGJ2019_BuiltData Referenced by PersistentLevel
-[2019.01.26-13.49.44:259][764]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading NULL.
-[2019.01.26-13.49.44:293][764]LogAIModule: Creating AISystem for world GGJ2019
-[2019.01.26-13.49.44:305][764]LogAssetEditorManager: Opening Asset editor for World /Game/GGJ2019.GGJ2019
-[2019.01.26-13.49.48:620][764]LogSlate: Window 'Save Content' being destroyed
-[2019.01.26-13.49.48:626][764]Cmd: MAP LOAD FILE="../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/GGJ2019.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.26-13.49.48:627][764]LightingResults: New page: Lighting Build
-[2019.01.26-13.49.48:628][764]LoadErrors: New page: Loading map: GGJ2019.umap
-[2019.01.26-13.49.48:629][764]MapCheck: New page: Map Check
-[2019.01.26-13.49.48:629][764]LightingResults: New page: Lighting Build
-[2019.01.26-13.49.48:662][764]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.26-13.49.48:715][764]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.26-13.49.49:007][764]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 290.855ms to complete.
-[2019.01.26-13.49.49:008][764]LogFileHelpers: Loading map 'GGJ2019' took 0.383
-[2019.01.26-13.49.56:113][579]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.49.56:115][579]LogAssetEditorManager: Opening Asset editor for World /Game/GameJam2019/Levels/TESTWorld.TESTWorld
-[2019.01.26-13.49.56:141][579]Cmd: MAP LOAD FILE="../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/GameJam2019/Levels/TESTWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.26-13.49.56:141][579]LightingResults: New page: Lighting Build
-[2019.01.26-13.49.56:141][579]LoadErrors: New page: Loading map: TESTWorld.umap
-[2019.01.26-13.49.56:142][579]MapCheck: New page: Map Check
-[2019.01.26-13.49.56:142][579]LightingResults: New page: Lighting Build
-[2019.01.26-13.49.56:169][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.26-13.49.56:215][579]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.26-13.49.56:545][579]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 329.485ms to complete.
-[2019.01.26-13.49.56:547][579]LogFileHelpers: Loading map 'TESTWorld' took 0.407
-[2019.01.26-13.49.59:374][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.49.59:441][910]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.49.59:456][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.49.59:456][910]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:49:59 AM)
-[2019.01.26-13.49.59:456][910]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.49.59:459][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002600s)
-[2019.01.26-13.49.59:459][910]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.49.59:460][910]LogPlayLevel: PIE: World Init took: (0.000605s)
-[2019.01.26-13.49.59:460][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003319s)
-[2019.01.26-13.49.59:488][910]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.49.59:500][910]LogInit: FAudioDevice initialized.
-[2019.01.26-13.49.59:536][910]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.49.59:539][910]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.49.59
-[2019.01.26-13.49.59:539][910]LogWorld: Bringing up level for play took: 0.001960
-[2019.01.26-13.49.59:553][910]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.751
-[2019.01.26-13.50.22:749][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.50.22:786][692]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.50.22:833][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.50.22:850][693]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.01.26-13.50.25:267][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.51.10:345][360]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-13.51.12:683][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.52.22:992][794]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.52.23:007][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.52.23:007][794]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:52:23 AM)
-[2019.01.26-13.52.23:007][794]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.52.23:010][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002723s)
-[2019.01.26-13.52.23:010][794]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.52.23:010][794]LogPlayLevel: PIE: World Init took: (0.000636s)
-[2019.01.26-13.52.23:010][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003475s)
-[2019.01.26-13.52.23:064][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.52.23:076][794]LogInit: FAudioDevice initialized.
-[2019.01.26-13.52.23:112][794]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.52.23:115][794]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.52.23
-[2019.01.26-13.52.23:115][794]LogWorld: Bringing up level for play took: 0.001927
-[2019.01.26-13.52.23:129][794]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.407
-[2019.01.26-13.52.28:103][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.52.28:179][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.52.28:208][398]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.52.28:235][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.52.28:282][403]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.01.26-13.53.07:694][890]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-13.53.08:855][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.53.08:954][ 31]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.53.08:968][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.53.08:968][ 31]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:53:08 AM)
-[2019.01.26-13.53.08:968][ 31]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.53.08:971][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002467s)
-[2019.01.26-13.53.08:971][ 31]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.53.08:972][ 31]LogPlayLevel: PIE: World Init took: (0.000679s)
-[2019.01.26-13.53.08:972][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003282s)
-[2019.01.26-13.53.09:002][ 31]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.53.09:013][ 31]LogInit: FAudioDevice initialized.
-[2019.01.26-13.53.09:048][ 31]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.53.09:051][ 31]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.53.09
-[2019.01.26-13.53.09:051][ 31]LogWorld: Bringing up level for play took: 0.001894
-[2019.01.26-13.53.09:065][ 31]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.469
-[2019.01.26-13.53.21:371][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.53.21:407][508]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.53.21:454][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.53.21:476][509]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.01.26-13.53.21:657][530]Cmd: SELECT NONE
-[2019.01.26-13.53.23:128][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.53.36:971][280]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.53.36:987][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.53.36:987][280]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:53:36 AM)
-[2019.01.26-13.53.36:987][280]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.53.36:990][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002552s)
-[2019.01.26-13.53.36:990][280]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.53.36:990][280]LogPlayLevel: PIE: World Init took: (0.000675s)
-[2019.01.26-13.53.36:990][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003334s)
-[2019.01.26-13.53.37:048][280]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.53.37:060][280]LogInit: FAudioDevice initialized.
-[2019.01.26-13.53.37:097][280]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.53.37:100][280]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.53.37
-[2019.01.26-13.53.37:100][280]LogWorld: Bringing up level for play took: 0.001936
-[2019.01.26-13.53.37:114][280]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.596
-[2019.01.26-13.54.03:417][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.54.03:448][437]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.54.03:490][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.54.03:522][439]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.01.26-13.54.05:173][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.54.49:689][421]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.54.49:703][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.54.49:704][421]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:54:49 AM)
-[2019.01.26-13.54.49:704][421]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.54.49:708][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004439s)
-[2019.01.26-13.54.49:709][421]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.54.49:709][421]LogPlayLevel: PIE: World Init took: (0.000757s)
-[2019.01.26-13.54.49:709][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.005349s)
-[2019.01.26-13.54.49:776][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.54.49:807][421]LogInit: FAudioDevice initialized.
-[2019.01.26-13.54.49:848][421]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.54.49:851][421]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.54.49
-[2019.01.26-13.54.49:852][421]LogWorld: Bringing up level for play took: 0.002086
-[2019.01.26-13.54.49:866][421]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.451
-[2019.01.26-13.55.24:473][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.55.24:507][580]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.55.24:553][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.55.24:573][581]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.01.26-13.55.25:917][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.55.46:370][ 61]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.55.46:386][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.55.46:386][ 61]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:55:46 AM)
-[2019.01.26-13.55.46:386][ 61]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.55.46:389][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002671s)
-[2019.01.26-13.55.46:390][ 61]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.55.46:390][ 61]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2019.01.26-13.55.46:390][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003467s)
-[2019.01.26-13.55.46:446][ 61]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.55.46:459][ 61]LogInit: FAudioDevice initialized.
-[2019.01.26-13.55.46:493][ 61]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.55.46:495][ 61]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.55.46
-[2019.01.26-13.55.46:496][ 61]LogWorld: Bringing up level for play took: 0.001946
-[2019.01.26-13.55.46:510][ 61]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.35
-[2019.01.26-13.55.57:853][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.55.57:885][419]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.55.57:931][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.55.57:962][421]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.01.26-13.55.59:288][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.56.12:935][147]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.56.12:950][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.56.12:950][147]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:56:12 AM)
-[2019.01.26-13.56.12:950][147]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.56.12:953][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
-[2019.01.26-13.56.12:953][147]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.56.12:953][147]LogPlayLevel: PIE: World Init took: (0.000624s)
-[2019.01.26-13.56.12:953][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003334s)
-[2019.01.26-13.56.13:010][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.56.13:022][147]LogInit: FAudioDevice initialized.
-[2019.01.26-13.56.13:058][147]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.56.13:061][147]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.56.13
-[2019.01.26-13.56.13:062][147]LogWorld: Bringing up level for play took: 0.001898
-[2019.01.26-13.56.13:076][147]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.989
-[2019.01.26-13.56.36:161][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.56.36:193][921]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.56.36:239][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.56.36:275][923]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.01.26-13.56.42:819][703]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-13.56.45:283][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.56.55:783][193]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
-[2019.01.26-13.57.00:190][699]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-13.57.09:583][692]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Ledge_14)
-[2019.01.26-13.57.09:649][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-13.57.10:441][770]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-13.57.23:003][192]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-13.57.44:994][727]LogActorFactory: Actor Factory created Cube
-[2019.01.26-13.57.46:473][876]LogActorFactory: Actor Factory created Cube
-[2019.01.26-13.57.53:262][667]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-13.57.57:223][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-13.57.59:219][316]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-13.57.59:852][385]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-13.58.08:659][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.58.16:641][300]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-13.58.17:534][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-13.58.33:751][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.58.33:833][300]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-13.58.33:849][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-13.58.33:849][300]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 3:58:33 AM)
-[2019.01.26-13.58.33:849][300]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-13.58.33:852][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
-[2019.01.26-13.58.33:853][300]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-13.58.33:853][300]LogPlayLevel: PIE: World Init took: (0.000761s)
-[2019.01.26-13.58.33:853][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003787s)
-[2019.01.26-13.58.33:882][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-13.58.33:894][300]LogInit: FAudioDevice initialized.
-[2019.01.26-13.58.33:924][300]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-13.58.33:925][300]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-08.58.33
-[2019.01.26-13.58.33:926][300]LogWorld: Bringing up level for play took: 0.000953
-[2019.01.26-13.58.33:938][300]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.035
-[2019.01.26-13.58.36:719][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.58.36:753][632]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-13.58.36:786][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-13.58.36:823][635]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.01.26-13.58.37:007][657]Cmd: SELECT NONE
-[2019.01.26-13.58.37:546][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-13.59.25:788][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.59.43:414][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.59.47:042][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-13.59.59:952][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.00.00:045][183]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.00.00:061][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.00.00:061][183]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:00:00 AM)
-[2019.01.26-14.00.00:061][183]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.00.00:064][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002773s)
-[2019.01.26-14.00.00:064][183]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.00.00:064][183]LogPlayLevel: PIE: World Init took: (0.000656s)
-[2019.01.26-14.00.00:065][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003546s)
-[2019.01.26-14.00.00:093][183]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.00.00:105][183]LogInit: FAudioDevice initialized.
-[2019.01.26-14.00.00:137][183]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.00.00:140][183]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.00.00
-[2019.01.26-14.00.00:140][183]LogWorld: Bringing up level for play took: 0.002144
-[2019.01.26-14.00.00:155][183]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.182
-[2019.01.26-14.00.03:277][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.00.03:308][552]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.00.03:338][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.00.03:384][557]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.01.26-14.00.04:327][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.00.07:967][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.00.13:720][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.00.15:793][ 33]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2019.01.26-14.00.15:817][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.00.16:880][149]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.00.17:886][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.00.19:590][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.00.22:775][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.00.32:815][864]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.00.42:121][915]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessSettings)
-[2019.01.26-14.00.45:805][325]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.00.49:141][702]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.00.50:929][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.00.51:008][891]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.00.51:023][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.00.51:023][891]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:00:51 AM)
-[2019.01.26-14.00.51:023][891]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.00.51:026][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002545s)
-[2019.01.26-14.00.51:027][891]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.00.51:027][891]LogPlayLevel: PIE: World Init took: (0.000631s)
-[2019.01.26-14.00.51:027][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003284s)
-[2019.01.26-14.00.51:083][891]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.00.51:095][891]LogInit: FAudioDevice initialized.
-[2019.01.26-14.00.51:134][891]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.00.51:137][891]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.00.51
-[2019.01.26-14.00.51:137][891]LogWorld: Bringing up level for play took: 0.001983
-[2019.01.26-14.00.51:152][891]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.82
-[2019.01.26-14.01.01:693][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.01.01:729][151]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.01.01:777][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.01.01:795][152]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.01.26-14.01.10:255][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.01.16:287][843]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.01.16:763][895]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.01.23:699][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.01.39:897][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.02.03:511][293]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.02.03:527][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.02.03:527][293]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:02:03 AM)
-[2019.01.26-14.02.03:527][293]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.02.03:530][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002797s)
-[2019.01.26-14.02.03:531][293]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.02.03:531][293]LogPlayLevel: PIE: World Init took: (0.000796s)
-[2019.01.26-14.02.03:531][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003726s)
-[2019.01.26-14.02.03:588][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.02.03:602][293]LogInit: FAudioDevice initialized.
-[2019.01.26-14.02.03:634][293]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.02.03:636][293]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.02.03
-[2019.01.26-14.02.03:636][293]LogWorld: Bringing up level for play took: 0.000998
-[2019.01.26-14.02.03:649][293]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.323
-[2019.01.26-14.02.25:313][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.02.25:348][888]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.02.25:382][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.02.25:417][891]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.01.26-14.02.26:825][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.02.32:174][694]Cmd: TRANSACTION UNDO
-[2019.01.26-14.02.32:174][694]LogEditorTransaction: Undo Move Actors
-[2019.01.26-14.02.35:529][ 91]Cmd: TRANSACTION UNDO
-[2019.01.26-14.02.35:529][ 91]LogEditorTransaction: Undo Move Actors
-[2019.01.26-14.02.37:914][372]Cmd: TRANSACTION UNDO
-[2019.01.26-14.02.37:914][372]LogEditorTransaction: Undo Move Actors
-[2019.01.26-14.02.59:689][981]Cmd: TRANSACTION UNDO
-[2019.01.26-14.02.59:689][981]LogEditorTransaction: Undo Move Actors
-[2019.01.26-14.03.10:488][255]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.03.11:648][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2019.01.26-14.03.12:068][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.03.12:420][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2019.01.26-14.03.47:483][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.03.55:200][543]Cmd: SELECT NONE
-[2019.01.26-14.03.58:050][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.04.00:850][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2019.01.26-14.04.03:137][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.04.03:211][491]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.04.03:226][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.04.03:226][491]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:04:03 AM)
-[2019.01.26-14.04.03:227][491]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.04.03:229][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002721s)
-[2019.01.26-14.04.03:230][491]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.04.03:230][491]LogPlayLevel: PIE: World Init took: (0.000650s)
-[2019.01.26-14.04.03:230][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003495s)
-[2019.01.26-14.04.03:258][491]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.04.03:272][491]LogInit: FAudioDevice initialized.
-[2019.01.26-14.04.03:306][491]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.04.03:307][491]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.04.03
-[2019.01.26-14.04.03:308][491]LogWorld: Bringing up level for play took: 0.001023
-[2019.01.26-14.04.03:320][491]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.651
-[2019.01.26-14.04.20:321][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.04.20:355][529]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.04.20:385][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.04.20:421][532]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.01.26-14.04.33:302][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.04.46:193][327]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.04.46:211][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.04.46:211][327]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:04:46 AM)
-[2019.01.26-14.04.46:211][327]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.04.46:214][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002710s)
-[2019.01.26-14.04.46:214][327]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.04.46:215][327]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2019.01.26-14.04.46:215][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003503s)
-[2019.01.26-14.04.46:277][327]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.04.46:290][327]LogInit: FAudioDevice initialized.
-[2019.01.26-14.04.46:325][327]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.04.46:327][327]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.04.46
-[2019.01.26-14.04.46:327][327]LogWorld: Bringing up level for play took: 0.001715
-[2019.01.26-14.04.46:341][327]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.37
-[2019.01.26-14.04.54:633][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.04.54:663][320]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.04.54:693][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.04.54:734][324]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.01.26-14.04.56:793][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.05.38:989][128]LogSavePackage: Moving '../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Saved/TESTWorld_Auto173E91B7B483CCD17A4FF88A9C1630672.tmp' to '../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Saved/Autosaves/Game/GameJam2019/Levels/TESTWorld_Auto1.umap'
-[2019.01.26-14.05.38:999][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameJam2019/Levels/TESTWorld' took 0.087
-[2019.01.26-14.05.38:999][128]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
-[2019.01.26-14.05.39:049][132]Cmd: DELETE
-[2019.01.26-14.05.39:050][132]Cmd: ACTOR DELETE
-[2019.01.26-14.05.39:053][132]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
-[2019.01.26-14.05.39:107][132]LogEditorActor: Deleted 1 Actors (0.058 secs)
-[2019.01.26-14.05.40:951][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.05.59:403][556]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.05.59:954][613]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.06.02:075][861]Cmd: TRANSACTION UNDO
-[2019.01.26-14.06.02:076][861]LogEditorTransaction: Undo Clicking on Actors
-[2019.01.26-14.06.02:344][889]Cmd: TRANSACTION UNDO
-[2019.01.26-14.06.02:344][889]LogEditorTransaction: Undo Clicking on Actors
-[2019.01.26-14.06.02:574][916]Cmd: TRANSACTION UNDO
-[2019.01.26-14.06.02:574][916]LogEditorTransaction: Undo Delete Actors
-[2019.01.26-14.06.05:489][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.06.28:380][870]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.06.28:397][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.06.28:397][870]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:06:28 AM)
-[2019.01.26-14.06.28:397][870]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.06.28:400][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002894s)
-[2019.01.26-14.06.28:401][870]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.06.28:401][870]LogPlayLevel: PIE: World Init took: (0.000839s)
-[2019.01.26-14.06.28:401][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003868s)
-[2019.01.26-14.06.28:461][870]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.06.28:473][870]LogInit: FAudioDevice initialized.
-[2019.01.26-14.06.28:509][870]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.06.28:511][870]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.06.28
-[2019.01.26-14.06.28:511][870]LogWorld: Bringing up level for play took: 0.001163
-[2019.01.26-14.06.28:524][870]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.555
-[2019.01.26-14.06.48:698][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.06.48:732][289]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.06.48:762][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.06.48:800][292]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.01.26-14.06.51:889][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.06.55:806][114]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.06.58:314][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.07.08:285][990]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.07.08:302][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.07.08:302][990]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:07:08 AM)
-[2019.01.26-14.07.08:302][990]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.07.08:306][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004228s)
-[2019.01.26-14.07.08:307][990]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.07.08:307][990]LogPlayLevel: PIE: World Init took: (0.000861s)
-[2019.01.26-14.07.08:307][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.005239s)
-[2019.01.26-14.07.08:372][990]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.07.08:386][990]LogInit: FAudioDevice initialized.
-[2019.01.26-14.07.08:419][990]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.07.08:421][990]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.07.08
-[2019.01.26-14.07.08:422][990]LogWorld: Bringing up level for play took: 0.001502
-[2019.01.26-14.07.08:434][990]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.466
-[2019.01.26-14.07.20:567][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.07.20:602][441]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.07.20:637][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.07.20:673][444]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.01.26-14.07.21:827][582]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.07.24:991][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.07.28:150][ 14]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.07.28:166][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.07.28:166][ 14]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:07:28 AM)
-[2019.01.26-14.07.28:166][ 14]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.07.28:169][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003181s)
-[2019.01.26-14.07.28:170][ 14]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.07.28:170][ 14]LogPlayLevel: PIE: World Init took: (0.000622s)
-[2019.01.26-14.07.28:170][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003924s)
-[2019.01.26-14.07.28:230][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.07.28:244][ 14]LogInit: FAudioDevice initialized.
-[2019.01.26-14.07.28:278][ 14]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.07.28:280][ 14]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.07.28
-[2019.01.26-14.07.28:280][ 14]LogWorld: Bringing up level for play took: 0.001022
-[2019.01.26-14.07.28:293][ 14]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.325
-[2019.01.26-14.07.39:708][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.07.39:739][382]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.07.39:767][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.07.39:810][386]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.01.26-14.07.42:240][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2019.01.26-14.07.46:083][131]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.07.46:859][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2019.01.26-14.07.55:357][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.08.00:083][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.08.19:059][ 27]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.08.19:878][117]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.08.20:331][170]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.08.21:325][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
-[2019.01.26-14.08.22:381][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
-[2019.01.26-14.08.22:898][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
-[2019.01.26-14.08.23:629][549]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
-[2019.01.26-14.08.24:780][681]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
-[2019.01.26-14.08.25:585][773]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
-[2019.01.26-14.08.26:633][893]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
-[2019.01.26-14.08.27:144][949]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
-[2019.01.26-14.08.32:410][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2019.01.26-14.08.33:668][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
-[2019.01.26-14.08.35:279][899]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
-[2019.01.26-14.08.38:441][266]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube17)
-[2019.01.26-14.08.38:462][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.08.41:884][661]Cmd: ACTOR MIRROR Y=-1
-[2019.01.26-14.08.43:210][819]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube17)
-[2019.01.26-14.08.43:229][819]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.08.45:440][ 72]Cmd: ACTOR MIRROR X=-1
-[2019.01.26-14.08.47:975][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2019.01.26-14.08.50:729][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
-[2019.01.26-14.08.52:447][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
-[2019.01.26-14.08.53:299][994]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.08.55:449][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.08.55:515][253]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.08.55:531][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.08.55:531][253]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:08:55 AM)
-[2019.01.26-14.08.55:532][253]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.08.55:535][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003313s)
-[2019.01.26-14.08.55:535][253]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.08.55:536][253]LogPlayLevel: PIE: World Init took: (0.000664s)
-[2019.01.26-14.08.55:536][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.004092s)
-[2019.01.26-14.08.55:568][253]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.08.55:580][253]LogInit: FAudioDevice initialized.
-[2019.01.26-14.08.55:615][253]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.08.55:617][253]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.08.55
-[2019.01.26-14.08.55:618][253]LogWorld: Bringing up level for play took: 0.002031
-[2019.01.26-14.08.55:631][253]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld -0.336
-[2019.01.26-14.09.12:007][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.09.12:043][214]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.09.12:079][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.09.12:107][216]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2019.01.26-14.09.12:198][227]Cmd: SELECT NONE
-[2019.01.26-14.09.12:932][315]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2019.01.26-14.09.13:436][371]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.09.15:024][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.10.15:518][688]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Ledge_14)
-[2019.01.26-14.10.15:584][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.10.18:432][ 18]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
-[2019.01.26-14.10.27:715][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.26-14.10.32:700][560]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.26-14.10.32:717][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.26-14.10.32:717][560]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:10:32 AM)
-[2019.01.26-14.10.32:717][560]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
-[2019.01.26-14.10.32:720][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003139s)
-[2019.01.26-14.10.32:721][560]LogAIModule: Creating AISystem for world TESTWorld
-[2019.01.26-14.10.32:721][560]LogPlayLevel: PIE: World Init took: (0.000616s)
-[2019.01.26-14.10.32:721][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003867s)
-[2019.01.26-14.10.32:774][560]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.26-14.10.32:788][560]LogInit: FAudioDevice initialized.
-[2019.01.26-14.10.32:820][560]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.01.26-14.10.32:823][560]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.10.32
-[2019.01.26-14.10.32:824][560]LogWorld: Bringing up level for play took: 0.002396
-[2019.01.26-14.10.32:837][560]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.87
-[2019.01.26-14.10.48:150][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.10.48:184][395]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.26-14.10.48:214][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.26-14.10.48:256][399]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.01.26-14.10.50:050][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.10.54:144][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.26-14.10.54:538][ 98]LogSavePackage: Moving '../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Saved/TESTWorldBCCEF0914D40B9558D49FA83E997DDC6.tmp' to '../../../../../../Users/kingerso/Desktop/GGJ2019/MyProject4/Content/GameJam2019/Levels/TESTWorld.umap'
-[2019.01.26-14.10.54:580][ 98]LogFileHelpers: Saving map 'TESTWorld' took 0.431
-[2019.01.26-14.10.55:938][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.33.27:153][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-14.33.27:153][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-14.33.27:171][  0]LogHAL: Display: Platform has ~ 16 GB [17130958848 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-14.33.27:171][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-14.33.27:172][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-14.33.27:173][  0]LogInit: Computer: DESKTOP-638PJA8
+[2019.01.26-14.33.27:173][  0]LogInit: User: colin
+[2019.01.26-14.33.27:173][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-14.33.27:173][  0]LogInit: High frequency timer resolution =2.648435 MHz
+[2019.01.26-14.33.27:174][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.26-14.33.27:174][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-14.33.27:174][  0]LogMemory: Process Physical Memory: 99.34 MB used, 99.34 MB peak
+[2019.01.26-14.33.27:174][  0]LogMemory: Process Virtual Memory: 90.84 MB used, 90.84 MB peak
+[2019.01.26-14.33.27:174][  0]LogMemory: Physical Memory: 5547.68 MB used,  10789.68 MB free, 16337.36 MB total
+[2019.01.26-14.33.27:174][  0]LogMemory: Virtual Memory: 4645.29 MB used,  10789.68 MB free, 134217728.00 MB total
+[2019.01.26-14.33.28:257][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-14.33.28:257][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.26-14.33.28:261][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-14.33.28:772][  0]LogStreaming: Display: Took  0.511s to InitEngineTextLocalization.
+[2019.01.26-14.33.28:775][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-14.33.28:966][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-14.33.28:966][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-14.33.29:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-14.33.29:805][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-14.33.29:949][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2019.01.26-14.33.29:949][  0]LogD3D11RHI:       8144/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.26-14.33.29:954][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-14.33.29:954][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-14.33.29:954][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-14.33.29:967][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-14.33.29:967][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-14.33.29:968][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-14.33.29:968][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2019.01.26-14.33.29:968][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2019.01.26-14.33.29:969][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2019.01.26-14.33.29:970][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2019.01.26-14.33.29:970][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-14.33.29:970][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2019.01.26-14.33.29:970][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
+[2019.01.26-14.33.29:970][  0]LogD3D11RHI:      Driver Date: 1-11-2019
+[2019.01.26-14.33.29:970][  0]LogRHI: Texture pool is 5701 MB (70% of 8144 MB)
+[2019.01.26-14.33.30:042][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-14.33.30:085][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-14.33.30:131][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Intermediate/Shaders/WorkingDirectory/10632/).
+[2019.01.26-14.33.30:131][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colin/AppData/Local/Temp/UnrealShaderWorkingDir/F2552E914FDC355CEE03608B55F375DC/'.
+[2019.01.26-14.33.31:862][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-14.33.31:896][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-14.33.31:928][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-14.33.31:954][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-14.33.31:984][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-14.33.32:015][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-14.33.32:039][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-14.33.32:063][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-14.33.32:080][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-14.33.32:208][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-14.33.32:331][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-14.33.32:331][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-14.33.32:388][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-14.33.32:388][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-14.33.32:417][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-14.33.32:449][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-14.33.32:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-14.33.32:521][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-14.33.32:547][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-14.33.32:547][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-14.33.33:232][  0]LogXGEController: Cleaning working directory: C:/Users/colin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-14.33.33:233][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-14.33.33:233][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-14.33.33:233][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-14.33.35:577][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-14.33.36:655][  0]LogDerivedDataCache: Loaded boot cache 1.08s 98MB C:/Users/colin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-14.33.36:657][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/colin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-14.33.36:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-14.33.36:658][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-14.33.36:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-14.33.36:658][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-14.33.36:723][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-14.33.36:739][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-14.33.36:739][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-14.33.36:739][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-14.33.36:802][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-14.33.36:812][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-14.33.36:837][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-14.33.37:388][  0]LogAssetRegistry: FAssetRegistry took 0.0418 seconds to start up
+[2019.01.26-14.33.38:353][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-14.33.39:138][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-14.33.39:213][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-14.33.39:214][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-14.33.39:215][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-14.33.39:215][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-14.33.39:296][  0]LogNetVersion: MyProject4 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3245095822)
+[2019.01.26-14.33.41:050][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.096890 seconds
+[2019.01.26-14.33.41:067][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-14.33.41:067][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.26-14.33.41:067][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-14.33.44:777][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-14.33.44:808][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-14.33.45:601][  0]SourceControl: Source control is disabled
+[2019.01.26-14.33.45:602][  0]SourceControl: Source control is disabled
+[2019.01.26-14.33.45:636][  0]SourceControl: Source control is disabled
+[2019.01.26-14.33.45:659][  0]SourceControl: Source control is disabled
+[2019.01.26-14.33.46:861][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-14.33.47:293][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-14.33.47:598][  0]LogEngine: Initializing Engine...
+[2019.01.26-14.33.47:602][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-14.33.47:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.01.26-14.33.47:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-14.33.47:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-14.33.47:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-14.33.48:150][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-14.33.48:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-14.33.48:259][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.26-14.33.49:057][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-14.33.49:057][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-14.33.49:159][  0]LogDerivedDataCache: Saved boot cache 0.10s 98MB C:/Users/colin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-14.33.49:185][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-14.33.49:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-14.33.49:308][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-14.33.49:597][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-14.33.50:323][  0]LocalizationService: Localization service is disabled
+[2019.01.26-14.33.51:369][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-14.33.51:370][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-14.33.51:370][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-14.33.51:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-14.33.51:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-14.33.51:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-14.33.51:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-14.33.51:741][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/' took 0.01s
+[2019.01.26-14.33.51:929][  0]SourceControl: Source control is disabled
+[2019.01.26-14.33.51:931][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-14.33.51:932][  0]LightingResults: New page: Lighting Build
+[2019.01.26-14.33.51:957][  0]MapCheck: New page: Map Check
+[2019.01.26-14.33.51:957][  0]LightingResults: New page: Lighting Build
+[2019.01.26-14.33.52:499][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
+[2019.01.26-14.33.52:500][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2019.01.26-14.33.52:500][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData
+[2019.01.26-14.33.52:552][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
+[2019.01.26-14.33.52:552][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2019.01.26-14.33.52:552][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData
+[2019.01.26-14.33.52:557][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
+[2019.01.26-14.33.52:558][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.01.26-14.33.52:558][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
+[2019.01.26-14.33.52:559][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.01.26-14.33.52:597][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData'
+[2019.01.26-14.33.52:598][  0]LoadErrors: Failed to load /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2019.01.26-14.33.52:598][  0]LogLinker: Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData' while loading NULL.
+[2019.01.26-14.33.52:599][  0]LoadErrors: Failed to load /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2019.01.26-14.33.52:750][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.01.26-14.33.52:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-14.33.52:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-14.33.52:951][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.597ms to complete.
+[2019.01.26-14.33.52:951][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.021
+[2019.01.26-14.33.53:132][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.33.53:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.33.53:151][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.33.53:160][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.33.53:188][  0]LogCollectionManager: Loaded 0 collections in 0.001527 seconds
+[2019.01.26-14.33.53:258][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Collections/' took 0.01s
+[2019.01.26-14.33.53:258][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Developers/colin/Collections/' took 0.01s
+[2019.01.26-14.33.53:258][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Collections/' took 0.01s
+[2019.01.26-14.33.53:258][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.26-14.33.53:285][  0]LogContentBrowser: Native class hierarchy populated in 0.0261 seconds. Added 2572 classes and 603 folders.
+[2019.01.26-14.33.53:302][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.26-14.33.53:869][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.26-14.33.53:920][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.01.26-14.33.54:278][  0]LogSlate: Took 0.013147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-14.33.54:292][  0]LogSlate: Took 0.010474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-14.33.54:315][  0]LogSlate: Took 0.001931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-14.33.54:440][  0]LogRenderer: Reallocating scene render targets to support 1856x900 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-14.33.54:749][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-14.33.54:749][  0]LogLoad: (Engine Initialization) Total time: 33.35 seconds
+[2019.01.26-14.33.54:749][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-14.33.54:773][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-14.33.54:817][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-14.33.54:842][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.33.55:085][  4]LogAssetRegistry: Asset discovery search completed in 17.7220 seconds
+[2019.01.26-14.33.55:088][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.26-14.33.55:089][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2019.01.26-14.34.30:942][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.34.35:703][527]LogSlate: Took 0.005183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-14.34.38:768][839]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-14.34.38:805][839]LogAIModule: Creating AISystem for world TESTWorld
+[2019.01.26-14.34.38:812][839]LogAssetEditorManager: Opening Asset editor for World /Game/GameJam2019/Levels/TESTWorld.TESTWorld
+[2019.01.26-14.34.38:840][839]Cmd: MAP LOAD FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Levels/TESTWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-14.34.38:841][839]LightingResults: New page: Lighting Build
+[2019.01.26-14.34.38:841][839]LoadErrors: New page: Loading map: TESTWorld.umap
+[2019.01.26-14.34.38:844][839]MapCheck: New page: Map Check
+[2019.01.26-14.34.38:844][839]LightingResults: New page: Lighting Build
+[2019.01.26-14.34.38:951][839]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-14.34.38:988][839]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-14.34.39:103][839]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.208ms to complete.
+[2019.01.26-14.34.39:105][839]LogFileHelpers: Loading map 'TESTWorld' took 0.268
+[2019.01.26-14.34.45:609][557]LogRenderer: Reallocating scene render targets to support 1868x900 Format 10 NumSamples 1 (Frame:677).
+[2019.01.26-14.34.52:356][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.01.26-14.34.54:454][424]LogSlate: Took 0.006177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-14.34.55:605][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.35.20:065][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2019.01.26-14.35.26:453][756]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube9)
+[2019.01.26-14.35.26:490][756]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.35.38:955][686]EditorErrors: New page: Actor Reattachment
+[2019.01.26-14.35.40:665][869]Cmd: TRANSACTION UNDO
+[2019.01.26-14.35.40:665][869]LogEditorTransaction: Undo Replace Actor(s)
+[2019.01.26-14.36.05:727][785]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.36.18:162][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.01.26-14.36.24:485][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.01.26-14.36.24:494][ 14]LogAssetEditorManager: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2019.01.26-14.36.27:169][136]LogSlate: Window 'Cube' being destroyed
+[2019.01.26-14.36.27:179][136]LogSlate: Window 'Cube' being destroyed
+[2019.01.26-14.36.30:040][462]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2019.01.26-14.36.33:553][877]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.36.40:535][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.01.26-14.37.16:113][812]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.37.23:746][584]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.37.28:150][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.01.26-14.37.30:493][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.37.33:340][574]LogActorFactory: Actor Factory created Cube
+[2019.01.26-14.37.33:502][587]LogActorFactory: Actor Factory created Cube
+[2019.01.26-14.37.35:506][799]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.37.41:456][440]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2019.01.26-14.37.42:570][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2019.01.26-14.37.43:473][670]Cmd: DELETE
+[2019.01.26-14.37.43:473][670]Cmd: ACTOR DELETE
+[2019.01.26-14.37.43:482][670]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.37.43:508][670]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.01.26-14.37.54:161][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.37.58:034][268]Cmd: DELETE
+[2019.01.26-14.37.58:034][268]Cmd: ACTOR DELETE
+[2019.01.26-14.37.58:036][268]LogEditorActor: Deleted Actor: Actor
+[2019.01.26-14.37.58:060][268]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.26-14.38.07:926][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.39.48:849][ 58]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.01.26-14.39.49:890][176]LogEditorViewport: Clicking Background
+[2019.01.26-14.39.53:578][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.39.55:595][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.39.57:696][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.39.57:929][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.39.58:433][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.39.58:612][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.40.02:979][580]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.40.12:576][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.40.18:264][957]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.26-14.40.19:704][119]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2019.01.26-14.40.20:277][119]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.01.26-14.41.42:102][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/NewBlueprint.uasset" SILENT=true
+[2019.01.26-14.41.42:128][642]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/NewBlueprintAC53B9644C3CC17CB6EFB3954E5CBBAE.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/NewBlueprint.uasset'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.Unbreakable:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.SKEL_Unbreakable_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.Unbreakable_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.Unbreakable:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.Unbreakable:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:600][531]LogMetaData: Removing '/Game/Unbreakable.Unbreakable:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.01.26-14.41.50:647][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Unbreakable" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset" SILENT=true
+[2019.01.26-14.41.50:663][531]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Unbreakable5DFF9CBE4D870A81C11483B66DAE0907.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset'
+[2019.01.26-14.41.55:042][784]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.26-14.42.02:276][482]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.42.11:429][454]LogMetaData: Removing '/Game/Stone.SKEL_Stone_C' ref from Metadata '/Game/Unbreakable1.PackageMetaData'
+[2019.01.26-14.42.11:429][454]LogMetaData: Removing '/Game/Stone.Stone_C' ref from Metadata '/Game/Unbreakable1.PackageMetaData'
+[2019.01.26-14.42.11:473][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Stone" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Stone.uasset" SILENT=true
+[2019.01.26-14.42.11:489][454]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Stone0CB0CB054027E54E68440EB70E3ECF48.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Stone.uasset'
+[2019.01.26-14.42.16:138][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.42.16:975][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.42.17:847][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.42.18:560][125]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.42.19:085][181]LogEditorViewport: Clicking on Actor (LMB): Unbreakable_C (Unbreakable)
+[2019.01.26-14.42.20:037][290]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2019.01.26-14.42.20:037][290]LogEditorActor: No worlds found in edactSelectMatchingStaticMesh
+[2019.01.26-14.42.25:538][936]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.42.26:611][ 54]LogEditorViewport: Clicking on Actor (LMB): Unbreakable_C (Unbreakable)
+[2019.01.26-14.42.31:772][657]Cmd: ACTOR SELECT OFCLASS CLASS=Unbreakable_C
+[2019.01.26-14.42.34:607][994]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.42.36:581][219]LogEditorViewport: Clicking on Actor (LMB): Unbreakable_C (Unbreakable)
+[2019.01.26-14.42.39:910][613]Cmd: ACTOR SELECT OFCLASS CLASS=Unbreakable_C
+[2019.01.26-14.42.40:338][662]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.42.41:004][735]LogEditorViewport: Clicking on Actor (LMB): Stone_C (Stone)
+[2019.01.26-14.42.42:296][886]Cmd: ACTOR SELECT OFCLASS CLASS=Stone_C
+[2019.01.26-14.42.43:073][977]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.42.46:117][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.42.49:780][583]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Stone.Stone
+[2019.01.26-14.42.50:128][583]LogSlate: Took 0.006320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-14.43.04:388][485]LogAssetEditorManager: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2019.01.26-14.43.04:440][485]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.01.26-14.43.04:646][485]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.01.26-14.43.04:671][485]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.26-14.43.04:671][485]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.26-14.43.04:671][485]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.26-14.43.04:671][485]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.26-14.43.04:699][485]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.01.26-14.43.06:139][560]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.26-14.43.06:260][566]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.26-14.43.06:260][566]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.26-14.43.06:262][566]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.26-14.43.06:454][577]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.26-14.43.06:524][580]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.26-14.43.06:582][584]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.26-14.43.06:600][585]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.26-14.43.06:765][592]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.26-14.43.06:973][604]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.26-14.43.07:110][610]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.26-14.43.07:256][619]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.26-14.43.07:341][624]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.26-14.43.07:563][637]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.26-14.43.07:691][643]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.26-14.43.07:880][653]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.26-14.43.07:937][656]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.26-14.43.08:052][662]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.26-14.43.08:404][679]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.26-14.43.08:439][681]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.26-14.43.08:654][692]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.26-14.43.08:803][699]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.26-14.43.08:828][700]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.26-14.43.09:135][714]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.26-14.43.09:280][721]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.26-14.43.09:378][726]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.26-14.43.09:667][742]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.26-14.43.09:849][751]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.26-14.43.09:971][756]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.01.26-14.43.09:971][756]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2019.01.26-14.43.09:971][756]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.01.26-14.43.09:971][756]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.01.26-14.43.09:971][756]MaterialEditorStats: Texture samplers: 3/16
+[2019.01.26-14.43.35:667][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Stone" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Stone.uasset" SILENT=true
+[2019.01.26-14.43.35:685][761]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/StoneAD6149374A7463877FB0BFAA51559E70.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Stone.uasset'
+[2019.01.26-14.43.36:178][796]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2019.01.26-14.43.36:185][796]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2019.01.26-14.43.36:252][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.26-14.43.37:895][928]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Unbreakable.Unbreakable
+[2019.01.26-14.43.44:301][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.00:058][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.00:557][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.00:566][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Unbreakable" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset" SILENT=true
+[2019.01.26-14.44.00:576][602]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/UnbreakableFC942C07429FCA09A172AD9AB7F566E1.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset'
+[2019.01.26-14.44.02:899][788]LogSlate: Window 'Unbreakable' being destroyed
+[2019.01.26-14.44.02:908][788]LogSlate: Window 'Unbreakable' being destroyed
+[2019.01.26-14.44.09:910][501]LogMetaData: Removing '/Game/Dirt.Dirt_C' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:911][501]LogMetaData: Removing '/Game/Dirt.SKEL_Dirt_C' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:911][501]LogMetaData: Removing '/Game/Dirt.Dirt:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:911][501]LogMetaData: Removing '/Game/Dirt.Dirt:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:911][501]LogMetaData: Removing '/Game/Dirt.Dirt:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:911][501]LogMetaData: Removing '/Game/Dirt.Dirt:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Unbreakable.PackageMetaData'
+[2019.01.26-14.44.09:949][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dirt" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Dirt.uasset" SILENT=true
+[2019.01.26-14.44.09:967][501]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/DirtFE8456F94699D53B4EB0F991FBA39134.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Dirt.uasset'
+[2019.01.26-14.44.16:348][124]LogMetaData: Removing '/Game/Unbreakable.Unbreakable_C' ref from Metadata '/Game/Stone.PackageMetaData'
+[2019.01.26-14.44.16:348][124]LogMetaData: Removing '/Game/Unbreakable.SKEL_Unbreakable_C' ref from Metadata '/Game/Stone.PackageMetaData'
+[2019.01.26-14.44.16:386][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Unbreakable" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset" SILENT=true
+[2019.01.26-14.44.16:402][124]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/UnbreakableC1B90456451F07475608A8BA2630401E.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable.uasset'
+[2019.01.26-14.44.25:658][137]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Unbreakable1.Unbreakable1
+[2019.01.26-14.44.30:773][482]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.48:141][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.48:889][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.44.48:912][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Unbreakable1" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable1.uasset" SILENT=true
+[2019.01.26-14.44.48:932][717]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Unbreakable1186200D84280B6D67FAC738F28D9DB33.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/Unbreakable1.uasset'
+[2019.01.26-14.44.50:437][830]LogSlate: Window 'Unbreakable1' being destroyed
+[2019.01.26-14.44.50:449][830]LogSlate: Window 'Unbreakable1' being destroyed
+[2019.01.26-14.45.06:684][269]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:ReceiveTick' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:ReceiveBeginPlay' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.Dirt_C' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:Collision' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:228][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.SKEL_Dirt_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:229][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.Dirt_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:229][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.Dirt_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:229][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.Dirt_C:Collision' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:229][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Dirt.Dirt_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Dirt.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:ReceiveTick' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:ReceiveBeginPlay' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.Unbreakable_C' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:Collision' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.SKEL_Unbreakable_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.Unbreakable_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.Unbreakable_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.Unbreakable_C:Collision' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:235][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable.Unbreakable_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Unbreakable.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:ReceiveTick' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:ReceiveBeginPlay' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.Unbreakable1_C' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:Collision' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.SKEL_Unbreakable1_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.Unbreakable1_C:DefaultSceneRoot' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.Unbreakable1_C:Unbreakable' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.Unbreakable1_C:Collision' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:240][608]LogMetaData: Removing '/Game/GameJam2019/Assets/Unbreakable1.Unbreakable1_C:UserConstructionScript' ref from Metadata '/Game/GameJam2019/Unbreakable1.PackageMetaData'
+[2019.01.26-14.45.20:280][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameJam2019/Assets/Dirt" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Dirt.uasset" SILENT=true
+[2019.01.26-14.45.20:299][608]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Dirt1B8F6CEF437FB6BDBF80388D9A039AE9.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Dirt.uasset'
+[2019.01.26-14.45.20:320][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameJam2019/Assets/Unbreakable" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Unbreakable.uasset" SILENT=true
+[2019.01.26-14.45.20:337][608]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Unbreakable2EC4EFD2401850BB252881911B219FA0.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Unbreakable.uasset'
+[2019.01.26-14.45.20:357][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameJam2019/Assets/Unbreakable1" FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Unbreakable1.uasset" SILENT=true
+[2019.01.26-14.45.20:375][608]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Unbreakable1826DFE8D48A79A10845712BEFF567A9B.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Assets/Unbreakable1.uasset'
+[2019.01.26-14.45.32:538][597]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.45.43:609][382]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.45.45:638][428]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.46.05:665][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.46.14:731][604]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_34)
+[2019.01.26-14.46.15:899][733]Cmd: DELETE
+[2019.01.26-14.46.15:899][733]Cmd: ACTOR DELETE
+[2019.01.26-14.46.15:901][733]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.15:932][733]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.46.16:471][797]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_25)
+[2019.01.26-14.46.16:588][805]Cmd: DELETE
+[2019.01.26-14.46.16:588][805]Cmd: ACTOR DELETE
+[2019.01.26-14.46.16:589][805]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.16:620][805]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.46.17:092][861]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2019.01.26-14.46.17:147][862]Cmd: DELETE
+[2019.01.26-14.46.17:147][862]Cmd: ACTOR DELETE
+[2019.01.26-14.46.17:149][862]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.17:178][862]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.01.26-14.46.17:608][913]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2019.01.26-14.46.17:680][916]Cmd: DELETE
+[2019.01.26-14.46.17:680][916]Cmd: ACTOR DELETE
+[2019.01.26-14.46.17:682][916]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.17:713][916]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.46.18:158][969]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_12)
+[2019.01.26-14.46.18:222][971]Cmd: DELETE
+[2019.01.26-14.46.18:222][971]Cmd: ACTOR DELETE
+[2019.01.26-14.46.18:224][971]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.18:256][971]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.26-14.46.18:493][999]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_32)
+[2019.01.26-14.46.18:731][ 22]Cmd: DELETE
+[2019.01.26-14.46.18:731][ 22]Cmd: ACTOR DELETE
+[2019.01.26-14.46.18:732][ 22]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.18:763][ 22]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.01.26-14.46.19:018][ 52]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_31)
+[2019.01.26-14.46.19:130][ 60]Cmd: DELETE
+[2019.01.26-14.46.19:130][ 60]Cmd: ACTOR DELETE
+[2019.01.26-14.46.19:132][ 60]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.19:160][ 60]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.01.26-14.46.19:391][ 87]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_30)
+[2019.01.26-14.46.19:511][ 96]Cmd: DELETE
+[2019.01.26-14.46.19:512][ 96]Cmd: ACTOR DELETE
+[2019.01.26-14.46.19:513][ 96]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.19:536][ 96]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.26-14.46.19:800][127]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_29)
+[2019.01.26-14.46.19:934][138]Cmd: DELETE
+[2019.01.26-14.46.19:934][138]Cmd: ACTOR DELETE
+[2019.01.26-14.46.19:936][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.19:965][138]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.01.26-14.46.20:588][212]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_28)
+[2019.01.26-14.46.20:717][222]Cmd: DELETE
+[2019.01.26-14.46.20:717][222]Cmd: ACTOR DELETE
+[2019.01.26-14.46.20:719][222]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.20:745][222]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.01.26-14.46.22:351][414]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessSettings)
+[2019.01.26-14.46.24:448][656]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.46.24:512][657]Cmd: DELETE
+[2019.01.26-14.46.24:512][657]Cmd: ACTOR DELETE
+[2019.01.26-14.46.24:514][657]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.24:545][657]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.46.26:101][843]Cmd: TRANSACTION UNDO
+[2019.01.26-14.46.26:102][843]LogEditorTransaction: Undo Delete Actors
+[2019.01.26-14.46.26:813][905]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.46.27:714][993]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2019.01.26-14.46.28:830][101]Cmd: DELETE
+[2019.01.26-14.46.28:830][101]Cmd: ACTOR DELETE
+[2019.01.26-14.46.28:834][101]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.28:866][101]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.01.26-14.46.29:329][154]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2019.01.26-14.46.29:423][160]Cmd: DELETE
+[2019.01.26-14.46.29:423][160]Cmd: ACTOR DELETE
+[2019.01.26-14.46.29:424][160]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.29:451][160]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.01.26-14.46.29:739][194]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2019.01.26-14.46.29:839][201]Cmd: DELETE
+[2019.01.26-14.46.29:839][201]Cmd: ACTOR DELETE
+[2019.01.26-14.46.29:841][201]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.29:872][201]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.46.31:069][344]Cmd: TRANSACTION UNDO
+[2019.01.26-14.46.31:069][344]LogEditorTransaction: Undo Delete Actors
+[2019.01.26-14.46.31:543][383]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_17)
+[2019.01.26-14.46.32:409][467]Cmd: DELETE
+[2019.01.26-14.46.32:410][467]Cmd: ACTOR DELETE
+[2019.01.26-14.46.32:411][467]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2019.01.26-14.46.32:439][467]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.01.26-14.46.34:686][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2019.01.26-14.46.35:937][854]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2019.01.26-14.46.36:841][959]Cmd: DELETE
+[2019.01.26-14.46.36:841][959]Cmd: ACTOR DELETE
+[2019.01.26-14.46.36:846][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:847][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:847][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:848][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:848][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:849][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:849][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:850][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:850][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:851][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:851][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:852][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:852][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:853][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:853][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:854][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:854][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-14.46.36:885][959]LogEditorActor: Deleted 17 Actors (0.044 secs)
+[2019.01.26-14.46.41:091][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.46.46:051][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.46.51:869][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.46.52:031][620]LogRenderer: Reallocating scene render targets to support 1868x924 Format 10 NumSamples 1 (Frame:59933).
+[2019.01.26-14.47.17:183][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.47.24:950][389]LogEditorViewport: Clicking on Actor (LMB): Unbreakable_C (Unbreakable)
+[2019.01.26-14.47.27:446][687]Cmd: EDIT CUT
+[2019.01.26-14.47.27:460][687]LogEditorActor: Deleted Actor: Unbreakable_C
+[2019.01.26-14.47.27:491][687]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.26-14.47.28:381][794]Cmd: TRANSACTION UNDO
+[2019.01.26-14.47.28:382][794]LogEditorTransaction: Undo Cut
+[2019.01.26-14.47.33:052][298]Cmd: EDIT COPY
+[2019.01.26-14.47.33:203][316]Cmd: EDIT PASTE
+[2019.01.26-14.48.00:609][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.48.06:901][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.48.10:076][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.48.15:289][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.48.15:414][142]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-14.48.15:427][142]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.26-14.48.15:429][142]LogPlayLevel: [PlayLevel] Compiling Unbreakable1 before play...
+[2019.01.26-14.48.15:529][142]LogPlayLevel: [PlayLevel] Compiling Unbreakable before play...
+[2019.01.26-14.48.15:667][142]LogPlayLevel: PlayLevel: Blueprint regeneration took 239 ms (2 blueprints)
+[2019.01.26-14.48.15:685][142]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:48:15 AM)
+[2019.01.26-14.48.15:685][142]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
+[2019.01.26-14.48.15:693][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008188s)
+[2019.01.26-14.48.15:694][142]LogAIModule: Creating AISystem for world TESTWorld
+[2019.01.26-14.48.15:694][142]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2019.01.26-14.48.15:695][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.009652s)
+[2019.01.26-14.48.15:746][142]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.26-14.48.15:874][142]LogInit: FAudioDevice initialized.
+[2019.01.26-14.48.15:923][142]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.01.26-14.48.15:938][142]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.48.15
+[2019.01.26-14.48.15:939][142]LogWorld: Bringing up level for play took: 0.003591
+[2019.01.26-14.48.15:978][142]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.26-14.48.15:983][142]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.115
+[2019.01.26-14.48.26:655][418]Set new viewmode: Unlit
+[2019.01.26-14.48.35:343][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.48.35:384][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-14.48.35:432][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.48.35:456][461]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.26-14.49.02:335][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-14.49.02:713][643]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/TESTWorld_Auto1177D123047F3EB9B74B3E6B0EF1B486A.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/Autosaves/Game/GameJam2019/Levels/TESTWorld_Auto1.umap'
+[2019.01.26-14.49.02:716][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameJam2019/Levels/TESTWorld' took 0.369
+[2019.01.26-14.49.02:716][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.369
+[2019.01.26-14.57.03:802][571]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-14.57.03:813][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-14.57.03:813][571]PIE: New page: PIE session: TESTWorld (Jan 26, 2019, 4:57:03 AM)
+[2019.01.26-14.57.03:813][571]LogPlayLevel: Creating play world package: /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld
+[2019.01.26-14.57.03:816][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002728s)
+[2019.01.26-14.57.03:816][571]LogAIModule: Creating AISystem for world TESTWorld
+[2019.01.26-14.57.03:816][571]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2019.01.26-14.57.03:816][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameJam2019/Levels/TESTWorld.TESTWorld to /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld (0.003578s)
+[2019.01.26-14.57.03:867][571]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.01.26-14.57.03:996][571]LogInit: FAudioDevice initialized.
+[2019.01.26-14.57.04:032][571]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.01.26-14.57.04:034][571]LogWorld: Bringing World /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld.TESTWorld up for play (max tick rate 0) at 2019.01.26-09.57.04
+[2019.01.26-14.57.04:034][571]LogWorld: Bringing up level for play took: 0.001289
+[2019.01.26-14.57.04:047][571]PIE: Play in editor start time for /Game/GameJam2019/Levels/UEDPIE_0_TESTWorld 0.179
+[2019.01.26-14.57.08:898][152]Set new viewmode: Unlit
+[2019.01.26-14.57.13:875][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.57.13:907][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-14.57.13:941][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-14.57.13:978][752]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.26-14.57.17:518][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-14.57.18:948][150]LogSlate: Window 'Save Content' being destroyed
+[2019.01.26-14.57.19:164][150]LogSavePackage: Moving 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Saved/TESTWorld8DB49A0E46CA08946E88B890330C9411.tmp' to 'D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Levels/TESTWorld.umap'
+[2019.01.26-14.57.19:183][150]LogFileHelpers: Saving map 'TESTWorld' took 0.213
+[2019.01.26-14.57.24:113][690]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.24:113][690]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GGJ2019.umap.
+[2019.01.26-14.57.24:113][690]LoadErrors: Error: /Game/GGJ2019 : Can't find file for asset. /Game/GGJ2019_BuiltData
+[2019.01.26-14.57.24:128][690]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.24:128][690]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GGJ2019.umap.
+[2019.01.26-14.57.24:132][690]LogLinker: Warning: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.24:132][690]LoadErrors: Failed to load /Game/GGJ2019_BuiltData.GGJ2019_BuiltData Referenced by PersistentLevel
+[2019.01.26-14.57.24:132][690]LogLinker: Warning: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading NULL.
+[2019.01.26-14.57.24:191][690]LogAIModule: Creating AISystem for world GGJ2019
+[2019.01.26-14.57.24:200][690]LogAssetEditorManager: Opening Asset editor for World /Game/GGJ2019.GGJ2019
+[2019.01.26-14.57.24:232][690]Cmd: MAP LOAD FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GGJ2019.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-14.57.24:233][690]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.24:234][690]LoadErrors: New page: Loading map: GGJ2019.umap
+[2019.01.26-14.57.24:235][690]MapCheck: New page: Map Check
+[2019.01.26-14.57.24:235][690]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.24:337][690]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-14.57.24:384][690]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-14.57.24:518][690]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.839ms to complete.
+[2019.01.26-14.57.24:519][690]LogFileHelpers: Loading map 'GGJ2019' took 0.288
+[2019.01.26-14.57.31:015][214]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.26-14.57.31:029][214]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.31:034][214]MapCheck: New page: Map Check
+[2019.01.26-14.57.31:034][214]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.31:061][214]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-14.57.31:131][214]LoadErrors: New page: New Map
+[2019.01.26-14.57.31:138][214]LogLinker: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.31:138][214]LogLinker: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GGJ2019.umap.
+[2019.01.26-14.57.31:138][214]LogLinker: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.31:138][214]LogLinker: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GGJ2019.umap.
+[2019.01.26-14.57.31:142][214]LogLinker: Can't find file '/Game/GGJ2019_BuiltData'
+[2019.01.26-14.57.31:142][214]LogLinker: Can't find file for asset '/Game/GGJ2019_BuiltData' while loading NULL.
+[2019.01.26-14.57.31:144][214]LogAIModule: Creating AISystem for world GGJ2019
+[2019.01.26-14.57.48:538][ 93]LogAIModule: Creating AISystem for world TESTWorld
+[2019.01.26-14.57.48:546][ 93]LogAssetEditorManager: Opening Asset editor for World /Game/GameJam2019/Levels/TESTWorld.TESTWorld
+[2019.01.26-14.57.48:577][ 93]Cmd: MAP LOAD FILE="D:/Unreal Projects/GGJ2019/GGJ2019/MyProject4/Content/GameJam2019/Levels/TESTWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-14.57.48:577][ 93]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.48:577][ 93]LoadErrors: New page: Loading map: TESTWorld.umap
+[2019.01.26-14.57.48:578][ 93]MapCheck: New page: Map Check
+[2019.01.26-14.57.48:578][ 93]LightingResults: New page: Lighting Build
+[2019.01.26-14.57.48:679][ 93]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-14.57.48:719][ 93]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-14.57.48:847][ 93]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.21ms to complete.
+[2019.01.26-14.57.48:848][ 93]LogFileHelpers: Loading map 'TESTWorld' took 0.272
